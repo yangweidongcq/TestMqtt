@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16a4c3ce-2421-42fd-bf42-6ca92e299880" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/ApiHandlers/LocationHandler.py" afterPath="$USER_HOME$/Downloads/DataCenter/ApiHandlers/LocationHandler.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/DataCenterHandlers/UsersHandler.py" afterPath="$USER_HOME$/Downloads/DataCenter/DataCenterHandlers/UsersHandler.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/crontab/BaiduApi/BaiduDrugApi.py" afterPath="$USER_HOME$/Downloads/DataCenter/crontab/BaiduApi/BaiduDrugApi.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/crontab/TmallApi/Orders.py" afterPath="$USER_HOME$/Downloads/DataCenter/crontab/TmallApi/Orders.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/crontab/TmallGrab/WangwangGrab.py" afterPath="$USER_HOME$/Downloads/DataCenter/crontab/TmallGrab/WangwangGrab.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/crontab/tmall_dsr_rate.py" afterPath="$USER_HOME$/Downloads/DataCenter/crontab/tmall_dsr_rate.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/dataCenter.py" afterPath="$USER_HOME$/Downloads/DataCenter/dataCenter.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/nohup.out" afterPath="$USER_HOME$/Downloads/DataCenter/nohup.out" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/DataCenter/templates/users/user_list.html" afterPath="$USER_HOME$/Downloads/DataCenter/templates/users/user_list.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/checkin/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/checkin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinadd.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinadd.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinlogsearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinlogsearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinofficesearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/checkin/checkinofficesearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/common/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/common/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/common/downusersearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/common/downusersearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/common/nologin.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/common/nologin.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/customer/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/customer/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/customer/customersearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/customer/customersearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/customer/paginate_ajax.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/customer/paginate_ajax.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/customer/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/customer/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/house/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/house/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/house/housesearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/house/housesearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/house/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/house/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/kpi/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/kpi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/kpi/kpisearch.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/kpi/kpisearch.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/App/rout.py" afterPath="$USER_HOME$/Downloads/corp_platform/App/rout.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/AES.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/AES.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/DistrictBusinesscircle_utils.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/DistrictBusinesscircle_utils.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/SystemPermission.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/SystemPermission.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/common_utils.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/common_utils.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/excelhelper.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/excelhelper.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/httputil.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/httputil.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/jiguang.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/jiguang.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Common/logger.py" afterPath="$USER_HOME$/Downloads/corp_platform/Common/logger.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/Management/DistrictController.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/Management/DistrictController.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/Management/building_importController.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/Management/building_importController.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/Management/pre_building_importController.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/Management/pre_building_importController.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/Management/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/Management/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/base/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/base/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/base/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/base/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/callback/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/callback/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/callback/customer_callback/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/callback/customer_callback/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/callback/customer_callback/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/callback/customer_callback/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/callback/order_callback/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/callback/order_callback/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/callback/order_callback/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/callback/order_callback/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/common/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/common/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/common/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/common/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/counselor/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/counselor/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/counselor_evaluate/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/counselor_evaluate/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/counselor_evaluate/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/counselor_evaluate/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/crm_orderform/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/crm_orderform/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/crm_orderform/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/crm_orderform/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/current_user_utils.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/current_user_utils.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/customer/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/customer/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/customer/customer_views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/customer/customer_views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/customer/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/customer/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/customer_service/customer_service.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/customer_service/customer_service.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliverydetail_view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliverydetail_view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliveryfinishsearch_view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliveryfinishsearch_view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliverypendingsearch_view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliverypendingsearch_view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliveryunvalidsearch_view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/delivery/deliveryunvalidsearch_view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/didi/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/didi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/didi/guwendidi/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/didi/guwendidi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/didi/guwendidi/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/didi/guwendidi/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/didi/kefudidi/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/didi/kefudidi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/didi/kefudidi/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/didi/kefudidi/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/gw_virtualphone/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/gw_virtualphone/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/gw_virtualphone/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/gw_virtualphone/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/house/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/house/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/house/import1.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/house/import1.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/house/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/house/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/house_dict/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/house_dict/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/house_dict/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/house_dict/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/index_gw/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/index_gw/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/index_gw/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/index_gw/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/addip.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/addip.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/ipwhitelist.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/ipwhitelist.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/ip_white_list/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/pre_view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/pre_view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/office_building/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/office_building_contraller.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/office_building_contraller.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/order/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/order/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/orderform/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/orderform/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/orderform/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/orderform/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/search_views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/search_views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/pay_bill/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/click.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/click.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/excelview.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/excelview.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/logview.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/logview.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/order_distribution.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/order_distribution.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/reportserver/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/reportserver/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/reportserver/exceldownloadserver.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/reportserver/exceldownloadserver.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/search_.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/search_.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/uc.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/uc.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/report/view.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/report/view.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/route_config.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/route_config.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/sales/statistics_Controller.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/sales/statistics_Controller.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/session_config.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/session_config.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/spyoffice/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/spyoffice/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/spyoffice/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/spyoffice/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/uban_video/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/uban_video/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/uban_video/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/uban_video/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Controller/weixin/views.py" afterPath="$USER_HOME$/Downloads/corp_platform/Controller/weixin/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dac/DataBase.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dac/DataBase.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dac/DataSource.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dac/DataSource.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dac/PhoneField.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dac/PhoneField.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dac/mysql.conf" afterPath="$USER_HOME$/Downloads/corp_platform/Dac/mysql.conf" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/CallCenter/callcenter.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/CallCenter/callcenter.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_Management/corp_management.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_Management/corp_management.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_OfficeBuilding/corp_officebuilding.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_OfficeBuilding/corp_officebuilding.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_OfficeBuilding/ordercenter.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Corp_OfficeBuilding/ordercenter.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Infrastructure/model/InfrastructureBaseModel.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Infrastructure/model/InfrastructureBaseModel.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/ReadMe.md" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Uc/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Uc/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/Uc/uc.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/Uc/uc.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/logdb/__init__.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/logdb/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/logdb/model.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/logdb/model.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Dal/reportdb/reportdb.py" afterPath="$USER_HOME$/Downloads/corp_platform/Dal/reportdb/reportdb.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/back_office_building_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/back_office_building_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/callback_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/callback_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/callcenter_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/callcenter_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/counselor_evaludate_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/counselor_evaludate_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/customer_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/customer_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housecanregister.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housecanregister.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housecommissionmodule.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housecommissionmodule.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/househowpay.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/househowpay.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/houseincludepropertymanagement.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/houseincludepropertymanagement.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/houseleasttime.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/houseleasttime.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housenocommissiontime.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housenocommissiontime.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housetype.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/housetype.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/sex.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/enums/sex.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/house_dict_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/house_dict_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/house_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/house_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/index_gw_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/index_gw_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/ip_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/ip_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/ip_white_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/ip_white_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/logdb_service.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/logdb_service.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/office_building_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/office_building_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/order_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/order_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/pay_bill_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/pay_bill_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/report_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/report_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/utils.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/utils.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/Serveices/worklog_server.py" afterPath="$USER_HOME$/Downloads/corp_platform/Serveices/worklog_server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/appconfig.py" afterPath="$USER_HOME$/Downloads/corp_platform/appconfig.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/db.py" afterPath="$USER_HOME$/Downloads/corp_platform/db.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/initextphone.py" afterPath="$USER_HOME$/Downloads/corp_platform/initextphone.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/requirements.txt" afterPath="$USER_HOME$/Downloads/corp_platform/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/script/update_all_house_status.py" afterPath="$USER_HOME$/Downloads/corp_platform/script/update_all_house_status.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/server.py" afterPath="$USER_HOME$/Downloads/corp_platform/server.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/css/DateTimePicker.min.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/css/DateTimePicker.min.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/css/base.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/css/base.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/css/detail.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/css/detail.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/css/follow-up.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/css/follow-up.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/DateTimePicker.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/DateTimePicker.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-de.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-de.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-en.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-en.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-es.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-es.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-fr.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-fr.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ja.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ja.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-nl.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-nl.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ro.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ro.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ru.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-ru.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-uk.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-uk.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-zh-TW.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n-zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DateTimePicker-i18n.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DatetimePicker-i18n-zh-CN.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/i18n/DatetimePicker-i18n-zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/app/js/jquery-2.1.1.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/app/js/jquery-2.1.1.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/base.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/bootstrap-admin-theme.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/bootstrap-admin-theme.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/context.bootstrap.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/context.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/context.standalone.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/context.standalone.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/dataTables.bootstrap.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/house-dict.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/house-dict.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/index.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/list.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/list.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/navbar.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/navbar.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/revise-infomation.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/revise-infomation.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/tip-yellow.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/tip-yellow.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/tip-yellowsimple.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/tip-yellowsimple.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/webuploader.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/webuploader.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/css/zTreeStyle.css" afterPath="$USER_HOME$/Downloads/corp_platform/static/css/zTreeStyle.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/3d.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/3d.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/additional-methods.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/additional-methods.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap-table-zh-CN.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap-table-zh-CN.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap-table.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap-table.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/context.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/context.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/html5shiv.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery-2.1.1.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery-2.1.1.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.cookie.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.dataTables.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.poshytip.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.poshytip.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.validate.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.ztree.all-3.5.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.ztree.all-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.ztree.excheck-3.5.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/jquery.ztree.excheck-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/messages_zh.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/messages_zh.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/respond.min.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/static/js/three.min.70.js" afterPath="$USER_HOME$/Downloads/corp_platform/static/js/three.min.70.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/appbase.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/appbase.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/change-infomation.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/change-infomation.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerbelongupdate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerbelongupdate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerdetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerdetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerinvalid.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerinvalid.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customermodrecord.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/customermodrecord.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/entry-customer.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/customer/entry-customer.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/downloadapp.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/downloadapp.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/house/close.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/house/close.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/house/detail.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/house/detail.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/house/followup.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/house/followup.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/kpi/kpisearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/kpi/kpisearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/App/nologin.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/App/nologin.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/base.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/base_bak.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/base_bak.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/building_import/import.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/building_import/import.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/building_import/import_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/building_import/import_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/button_controler.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/button_controler.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/callback/callback_detail.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/callback/callback_detail.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/callback/customer_callback.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/callback/customer_callback.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/callback/details.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/callback/details.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/callback/order_callback.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/callback/order_callback.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/city_district_businesscircle_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/city_district_businesscircle_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/city_district_businesscircle_control_app.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/city_district_businesscircle_control_app.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselorcreate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselorcreate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselordetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselordetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselorsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor/counselorsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatecomplain.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatecomplain.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatedetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatedetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatetotal.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/counselor_evaluate/evaluatetotal.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/crm_orderupdate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/crm_orderupdate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/details.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/details.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/error.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/error.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/follow_look.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/follow_look.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderadd.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderadd.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderfinishsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderfinishsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/ordersearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/ordersearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderunvalidsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/crm_orderform_template/orderunvalidsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerCreate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerCreate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerDeal.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerDeal.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerInvalid.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerInvalid.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerMod.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerMod.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerOtheragent.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/CustomerOtheragent.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_create.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_create.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_followlook.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_followlook.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_sea.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customer_sea.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customerdetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customerdetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customerlist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customerlist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/customersearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/customersearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/deallist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/deallist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/followlook.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/followlook.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/invalidlist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/invalidlist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer/otheragentlist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer/otheragentlist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/customer_service/customer_seehouse_service.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/customer_service/customer_seehouse_service.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverydetail.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverydetail.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliveryfinishsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliveryfinishsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverymaster.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverymaster.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverypendingsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliverypendingsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliveryunvalidsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/delivery/deliveryunvalidsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/department_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/department_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/department_dialog_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/department_dialog_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/department_form_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/department_form_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/department_group_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/department_group_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/department_noform_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/department_noform_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/didi/guwendidi/guwendidisearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/didi/guwendidi/guwendidisearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/didi/kefudidi/kefudidisearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/didi/kefudidi/kefudidisearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/error/403.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/error/403.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/error/500.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/error/500.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/final_department_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/final_department_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/gw_virtualphone/gw_virtual_phone.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/gw_virtualphone/gw_virtual_phone.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/dkhimport.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/dkhimport.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/followhouse.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/followhouse.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/housecreate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/housecreate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/houseinfolog.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/houseinfolog.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/search.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/search.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house/worklog.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house/worklog.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/720house_images.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/720house_images.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/auditlist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/auditlist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/closedetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/closedetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/closesearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/closesearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/details.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/details.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/house_revise.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/house_revise.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/housecreate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/housecreate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/index.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/index.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_housek.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_housek.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_new.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/house_info/update_new.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/ht_cms.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/ht_cms.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/index.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/index_gw.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/index_gw.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/ip/ip_white.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/ip/ip_white.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/ipwhite/list.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/ipwhite/list.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/management/district.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/management/district.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/building_transform.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/building_transform.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/building_transform_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/building_transform_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/buildingconfigure.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/buildingconfigure.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/checkbuilding_import.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/checkbuilding_import.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/checkhouse_import.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/checkhouse_import.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/createlock.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/createlock.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_house.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_house.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_house_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_house_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_images.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_images.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_images_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_images_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_office.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_office.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_others.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_others.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_others_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_others_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_property.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_property.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_propertyback.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_propertyback.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_relation.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_relation.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_relation_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/details_relation_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/house_list_back.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/house_list_back.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/import.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/import.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/list.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/list.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/office_building/listback.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/office_building/listback.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/order/follow_look.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/order/follow_look.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/order/followcallback.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/order/followcallback.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/order/looklist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/order/looklist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/order/ordersearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/order/ordersearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/businesscircletogrouprule.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/businesscircletogrouprule.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/details.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/details.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/details_rotational_people.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/details_rotational_people.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderadd.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderadd.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderfinishsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderfinishsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/ordersearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/ordersearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderunvalidsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderunvalidsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderupdate.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/orderupdate.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/rotational.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/rotational.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/rotational_import.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/rotational_import.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/orderform/set_rotational_people.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/orderform/set_rotational_people.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/paginationbar_control.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/paginationbar_control.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/addbill.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/addbill.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwdetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwdetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwpendbillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwpendbillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwprocessebillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/cwprocessebillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/dealwithbill.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/dealwithbill.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwdetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwdetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwpendbillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwpendbillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwprocessebillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/gwprocessebillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/updatebill.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/updatebill.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yydetails.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yydetails.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yypendbillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yypendbillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yyprocessebillsearch.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/pay_bill/yyprocessebillsearch.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/report/model_page/show_detail.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/report/model_page/show_detail.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/report/reportBase.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/report/reportBase.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/report/reportlog.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/report/reportlog.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/spyoffice/spyofficebuildinglist.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/spyoffice/spyofficebuildinglist.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/temp.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/temp.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/uban_video/uban_train.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/uban_video/uban_train.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/uban_video/uban_video.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/uban_video/uban_video.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/video.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/video.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/templates/weixin/savepic.html" afterPath="$USER_HOME$/Downloads/corp_platform/templates/weixin/savepic.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Downloads/corp_platform/userIdentification.py" afterPath="$USER_HOME$/Downloads/corp_platform/userIdentification.py" />
+    </list>
+    <ignored path="TestMqtt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TestMqtt$test_thread.coverage" NAME="test_thread Coverage Results" MODIFIED="1465125849625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$2.coverage" NAME="2 Coverage Results" MODIFIED="1465126718640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$test.coverage" NAME="test Coverage Results" MODIFIED="1465708489445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestMqtt$3.coverage" NAME="3 Coverage Results" MODIFIED="1465122584477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$mqtt_client_thread.coverage" NAME="mqtt_client_thread Coverage Results" MODIFIED="1465123497273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/BMW$mqtt_client.coverage" NAME="mqtt_client Coverage Results" MODIFIED="1465658704420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/BMW$server.coverage" NAME="server Coverage Results" MODIFIED="1465701798509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestMqtt$mqtt_client.coverage" NAME="mqtt_client Coverage Results" MODIFIED="1465831692934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1465830805119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/python-project-template" />
+    <SUITE FILE_PATH="coverage/BMW$mqtt_server.coverage" NAME="mqtt_server Coverage Results" MODIFIED="1465658806085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$mqtt_server.coverage" NAME="mqtt_server Coverage Results" MODIFIED="1465831697228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$server.coverage" NAME="server Coverage Results" MODIFIED="1465834157822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestMqtt$4.coverage" NAME="4 Coverage Results" MODIFIED="1465122765623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1465708519873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestMqtt$1.coverage" NAME="1 Coverage Results" MODIFIED="1465126328498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+    <SUITE FILE_PATH="coverage/TestMqtt$5.coverage" NAME="5 Coverage Results" MODIFIED="1465122887535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mqttproject" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TestMqtt" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mqtt_client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mqtt_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showmqttdatacontrolletr.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_new.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/system/show_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menumanage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/menumanage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4605">
+              <caret line="307" column="39" selection-start-line="307" selection-start-column="39" selection-end-line="307" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menucontroller.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/menucontroller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/python-project-template/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role_log.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/role_log.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Downloads/DataCenter" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mqttproject/3.py" />
+        <option value="$PROJECT_DIR$/mqttproject/4.py" />
+        <option value="$PROJECT_DIR$/mqttproject/5.py" />
+        <option value="$PROJECT_DIR$/mqttproject/mqtt_client_thread.py" />
+        <option value="$PROJECT_DIR$/mqttproject/test_thread.py" />
+        <option value="$PROJECT_DIR$/mqttproject/1.py" />
+        <option value="$PROJECT_DIR$/mqttproject/2.py" />
+        <option value="$PROJECT_DIR$/mqttproject/mqtt_client.py" />
+        <option value="$PROJECT_DIR$/database/DataSource.py" />
+        <option value="$PROJECT_DIR$/database/ConfigTool.py" />
+        <option value="$PROJECT_DIR$/database/mysql.conf" />
+        <option value="$PROJECT_DIR$/templates/show_mqtt_data.html" />
+        <option value="$PROJECT_DIR$/database/mysql.conf" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/dal/Infrastructure/topic.py" />
+        <option value="$PROJECT_DIR$/common/test.py" />
+        <option value="$PROJECT_DIR$/common/test2.py" />
+        <option value="$PROJECT_DIR$/common/createredis.py" />
+        <option value="$PROJECT_DIR$/controller/system/__init__.py" />
+        <option value="$USER_HOME$/Downloads/python-project-template/templates/system/userdetail.html" />
+        <option value="$PROJECT_DIR$/mqttproject/mqtt_server.py" />
+        <option value="$PROJECT_DIR$/templates/system/show_mqtt_data.html" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py" />
+        <option value="$PROJECT_DIR$/templates/system/show_new.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="75" />
+    <option name="y" value="82" />
+    <option name="width" value="1525" />
+    <option name="height" value="818" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestMqtt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/DataCenter" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/system" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration default="false" name="mqtt_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mqttproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mqttproject/mqtt_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mqtt_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mqttproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mqttproject/mqtt_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/python-project-template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-project-template" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/python-project-template/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="TestMqtt" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TestMqtt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.mqtt_server" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mqtt_client" />
+      <item index="2" class="java.lang.String" itemvalue="Python.server" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.server (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.server" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mqtt_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mqtt_client" />
+        <item index="3" class="java.lang.String" itemvalue="Python.server (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16a4c3ce-2421-42fd-bf42-6ca92e299880" name="Default" comment="" />
+      <created>1465094368047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1465094368047</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="82" width="1525" height="818" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2636917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4972299" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/mqttproject/test_thread.py</url>
+          <line>22</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/mqttproject/mqtt_server.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/menucontroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/role_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/show_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/menumanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="307" column="39" selection-start-line="307" selection-start-column="39" selection-end-line="307" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/menucontroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/role_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/rolemanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="103" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/ConfigTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/show_mqtt_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/createredis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/show_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/ConfigTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/show_mqtt_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/createredis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/charts/charts_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/beautyeyes/register_per_day/register_per_day.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/users/user_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="214" column="22" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/surveydata/surveydata_scan/surveyProData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/wangWang/wangwangEservice/EserviceReceivenum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/wangWang/wangwangEservice/eserviceNoreplynum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2205">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/App/house/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="298" column="1" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/App/customer/entry-customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/App/customer/customerdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/office_building/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3473">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/office_building/building_transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/corp_platform/templates/weixin2/houselist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DataCenter/templates/categories/list_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/rolemanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="103" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqttproject/mqtt_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/system/showmqttdatacontrolletr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/show_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/menumanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="307" column="39" selection-start-line="307" selection-start-column="39" selection-end-line="307" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/controller/system/menucontroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python-project-template/templates/system/role_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
