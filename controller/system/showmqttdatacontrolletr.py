@@ -31,7 +31,7 @@ class NewMqttDtaView(MethodView):
 
     def post(self):
         dic = {}
-        re = redis.StrictRedis(host="127.0.0.1", port=6379)
+        re = redis.StrictRedis(host="123.56.201.7", port=6379)
         da = re.get("new_date")
         data = da.split(",")
         temperature = data[0]
