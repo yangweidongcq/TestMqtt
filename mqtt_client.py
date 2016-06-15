@@ -1,0 +1,32 @@
+import sys
+import paho.mqtt.publish as publish
+import random
+import demjson
+import time
+
+def transmitMQTT(strMsg):
+    #strMqttBroker = "localhost"
+    strBroker = "123.56.201.7"
+    strMqttChannel = "sensor"
+    #print(strMsg)
+    publish.single(strMqttChannel, strMsg, hostname = strBroker)
+
+if __name__ == '__main__':
+    data = {}
+    while True:
+        temperature = random.randint(-20,50)
+        #data["temperature"] = temperature
+        print temperature
+        hcho_concentrer = random.uniform(0.001,1)
+        #data["hcho_concentrer"] = hcho_concentrer
+        print hcho_concentrer
+        rh = random.randint(0,100)
+        print rh
+        # json = demjson.encode(data)
+        # tmp = "+27.5"
+        # rh = "60"
+        # noho = "0.2"
+        data = str(temperature)+","+str(rh)+","+str(hcho_concentrer)
+        transmitMQTT(data)
+        print "Send msg ok."
+        time.sleep(15)
