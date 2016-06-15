@@ -1,36 +1,80 @@
-# encoding:utf-8
-import threading, urllib2
-import datetime, time
-import Queue
-import paho.mqtt.publish as publish
+#! /usr/bin/python
+# enconding:utf-8
+
+import os
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+import datetime
+import time
+from dal.Infrastructure.topic import Topic
+from common.createredis import create_redis
+try:
+    import paho.mqtt.client as mqtt
+except ImportError:
+    print("MQTT client not find. Please install as follow:")
+    print("git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.python.git")
+    print("cd org.eclipse.paho.mqtt.python")
+    print("sudo python setup.py install")
 
 
-class ThreadClass(threading.Thread):
-    def __init__(self, queue):
-        threading.Thread.__init__(self)
-        self.queue = queue
-
-    def run(self):
-        while True:
-            strMsg = "hello,world"
-            strBroker = "123.56.201.7"
-            strMqttChannel = "sensor"
-            publish.single(strMqttChannel, strMsg, hostname=strBroker)
+# ======================================================
+def on_connect(mqttc, obj, rc):
+    print("OnConnetc, rc: " + str(rc))
 
 
-def main():
-    queue = Queue.Queue()
-    for i in range(200):
-        t = ThreadClass(queue)
-        # 主程序退出时，子线程也立即退出
-        t.setDaemon(True)
-        # 启动线程
-        t.start()
-    for j in range(200):
-        queue.put(j)
-        # 向队列中填充数数
-    queue.join()
+def on_publish(mqttc, obj, mid):
+    print("OnPublish, mid: " + str(mid))
+
+
+def on_subscribe(mqttc, obj, mid, granted_qos):
+    print("Subscribed: " + str(mid) + " " + str(granted_qos))
+
+
+def on_log(mqttc, obj, level, string):
+    print("Log:" + string)
+
+
+def on_message(mqttc, obj, msg):
+    curtime = datetime.datetime.now()
+    strcurtime = curtime.strftime("%Y-%m-%d %H:%M:%S")
+    print(strcurtime + ": " + msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
+    on_exec(str(msg.payload))
+
+
+def on_exec(strcmd):
+    print "Exec:", strcmd
+    strExec = strcmd
+    create_redis(strExec)
+    data = strExec.split(",")
+    temperature = data[0]
+    print temperature
+    hcho_concentrer = data[2][:4]
+    print hcho_concentrer
+    rh = data[1]
+    print  rh
+    topic_name = "sensor"
+    create_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()))
+    print create_time
+    Topic.create(
+        temperature =temperature ,
+        hcho_concentrer = hcho_concentrer,
+        rh = rh,
+        topic_name = topic_name,
+        create_time =create_time
+    )
+
+# =====================================================
 if __name__ == '__main__':
-    st = time.time()
-    main()
-    print '%f' % (time.time() - st)
+    mqttc = mqtt.Client("mynodeserver")
+    mqttc.on_message = on_message
+    mqttc.on_connect = on_connect
+    mqttc.on_publish = on_publish
+    mqttc.on_subscribe = on_subscribe
+    mqttc.on_log = on_log
+
+    strBroker = "123.56.201.7"
+
+    mqttc.connect(strBroker, 1883, 60)
+    mqttc.subscribe("sensor", 0)
+    mqttc.loop_forever()

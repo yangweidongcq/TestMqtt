@@ -12,40 +12,90 @@
                 </div>
                 <div class="bootstrap-admin-panel-content">
                     <div id="example_wrapper" class="dataTables_wrapper form-inline" role="grid">
-                        <table class="table table-striped table-bordered dataTable" id="example"
-                               aria-describedby="example_info">
-                            <thead>
-                            <tr role="row">
-                                <th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="example"
-                                    rowspan="1" colspan="1" aria-sort="ascending"
-                                    style="width: 157px;">温度
-                                </th>
-                                <th class="sorting_desc" role="columnheader" tabindex="0" aria-controls="example"
-                                    rowspan="1" colspan="1"
-                                    style="width: 94px;">湿度
-                                </th>
-                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
-                                    colspan="1"
-                                    style="width: 94px;">甲醛
-                                </th>
-                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
-                                    colspan="1"
-                                    style="width: 94px;">主题
-                                </th>
-                               <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
-                                    colspan="1" aria-label="Engine version: activate to sort column ascending"
-                                    style="width: 133px;">时间
-                                </th>
-                            </tr>
-                            </thead>
-                            <tr class="gradeA ${status.index%2==0?'odd':'even'}">
-                                    <td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>
-                                    <td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>
-                                    <td><input type="text" id="rh" name="rh" ></td>
-                                    <td class="center"><input type="text" id="topic_name" name="topic_name" ></td>
-                                    <td><input type="text" id="create_time" name="create_time" ></td>
-                                </tr>
-                        </table>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">温度</label>
+                                <input type="text" class="form-control" id="temperature" name="temperature" placeholder="Jane Doe"></td>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">湿度</label>
+                                <input type="text" placeholder="Jane Doe" class="form-control" id="hcho_concentrer" name="hcho_concentrer" >
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">甲醛</label>
+                                <input type="text" class="form-control" id="rh" name="rh" placeholder="Jane Doe"></td>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">主题</label>
+                                <input type="text" class="form-control" id="topic_name" name="topic_name" placeholder="Jane Doe">
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">时间</label>
+                                <input type="text" class="form-control" id="create_time" name="create_time" placeholder="Jane Doe">
+                            </div>
+
+                        </form>
+                        <!--<table class="table table-striped table-bordered dataTable" id="example" aria-describedby="example_info" >-->
+                            <!--<thead>-->
+                            <!--&lt;!&ndash;<tr role="row">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="example"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;rowspan="1" colspan="1" aria-sort="ascending"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;style="width: 157px;">温度&ndash;&gt;-->
+                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<th class="sorting_desc" role="columnheader" tabindex="0" aria-controls="example"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;rowspan="1" colspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;style="width: 94px;">湿度&ndash;&gt;-->
+                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;colspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;style="width: 94px;">甲醛&ndash;&gt;-->
+                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;colspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;style="width: 94px;">主题&ndash;&gt;-->
+                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
+                               <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;colspan="1" aria-label="Engine version: activate to sort column ascending"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;style="width: 133px;">时间&ndash;&gt;-->
+                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--</thead>-->
+                            <!--&lt;!&ndash;<tr class="gradeA ${status.index%2==0?'odd':'even'}">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td><input type="text" id="rh" name="rh" ></td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class="center"><input type="text" id="topic_name" name="topic_name" ></td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td><input type="text" id="create_time" name="create_time" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--<tr>-->
+                                <!--<td>温度</td>-->
+                                <!--<td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>湿度</td>-->
+                                <!--<td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>甲醛</td>-->
+                                <!--<td><input type="text" id="rh" name="rh" ></td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>主题</td>-->
+                                <!--<td class="center"><input type="text" id="topic_name" name="topic_name" ></td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>时间</td>-->
+                                <!--<td><input type="text" id="create_time" name="create_time" ></td>-->
+                            <!--</tr>-->
+                        <!--</table>-->
                     </div>
                 </div>
             </div>
