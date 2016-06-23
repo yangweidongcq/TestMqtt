@@ -33,6 +33,18 @@
                                     colspan="1"
                                     style="width: 94px;">主题
                                 </th>
+                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
+                                    colspan="1"
+                                    style="width: 94px;">PM2.5
+                                </th>
+                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
+                                    colspan="1"
+                                    style="width: 94px;">PM1
+                                </th>
+                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
+                                    colspan="1"
+                                    style="width: 94px;">PM10
+                                </th>
                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"
                                     colspan="1" aria-label="Engine version: activate to sort column ascending"
                                     style="width: 133px;">时间
@@ -44,6 +56,9 @@
                                     <td class=" sorting_1">{{ r['temperature'] }}</td>
                                     <td>{{ r['rh'] }}</td>
                                     <td class="fullname">{{ r['hcho_concentrer'] }}</td>
+                                    <td>{{r['pm_two_point_five']}}</td>
+                                    <td>{{r['pm_one']}}</td>
+                                    <td>{{r['pm_ten']}}</td>
                                     <td class="center">{{ r['topic_name'] }}</td>
                                     <td>{{ r['create_time'] }}</td>
                                 </tr>

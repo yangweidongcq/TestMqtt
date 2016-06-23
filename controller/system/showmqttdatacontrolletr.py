@@ -37,15 +37,22 @@ class NewMqttDtaView(MethodView):
         temperature = data[0]
         hcho_concentrer = data[2][:4]
         rh = data[1]
-        topic_name = "sensor"
+        pm_one_point_five = data[3]
+        pm_one = data[4]
+        pm_ten = data[5]
+        topic_name = "environment"
         create_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
         dic["temperature"] = temperature
         dic["hcho_concentrer"] = hcho_concentrer
         dic["rh"] = rh
+        dic["pm_two_point_five"] = pm_two_point_five
+        dic["pm_one"] = pm_one
+        dic["pm_ten"] = pm_ten
         dic["topic_name"] = topic_name
         dic["create_time"] = create_time
         print dic
         return jsonify({'success': 'ok', 'ret':dic })
+
 
 
 

@@ -32,6 +32,24 @@
                         </form>
                         <form class="form-inline">
                             <div class="form-group">
+                                <label for="exampleInputName2">PM2.5</label>
+                                <input type="text" class="form-control" id="pm_two_point_five" name="pm_two_point_five" placeholder="PM2.5"></td>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">PM1</label>
+                                <input type="text" class="form-control" id="pm_one" name="pm_one" placeholder="PM1"></td>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">PM10</label>
+                                <input type="text" class="form-control" id="pm_ten" name="pm_ten" placeholder="PM10"></td>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
                                 <label for="exampleInputName2">主题</label>
                                 <input type="text" class="form-control" id="topic_name" name="topic_name" placeholder="Jane Doe">
                             </div>
@@ -117,6 +135,9 @@
                             $("#temperature").attr("value",data["ret"]['temperature']);
                             $("#hcho_concentrer").attr("value",data["ret"]['hcho_concentrer']);
                             $("#rh").attr("value",data["ret"]['rh']);
+                            $("#pm_two_point_five").attr("value",data["ret"]['pm_two_point_five']);
+                            $("#pm_one").attr("value",data["ret"]['pm_one']);
+                            $("#pm_ten").attr("value",data["ret"]['pm_ten']);
                             $("#topic_name").attr("value",data["ret"]['topic_name']);
                             $("#create_time").attr("value",data["ret"]['create_time']);
                         }

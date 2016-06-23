@@ -16,6 +16,9 @@ class Topic(BaseModel):
     hcho_concentrer = FloatField()
     rh = IntegerField()
     topic_name =CharField()
+    pm_two_point_five = IntegerField()
+    pm_one = IntegerField()
+    pm_ten = IntegerField()
     create_time = CharField()
     class Meta:
         db_table = 'topic'

@@ -53,13 +53,7 @@ def on_exec(strcmd):
     print hcho_concentrer
     rh = data[1]
     print  rh
-    pm_one_point_five = data[3]
-    print pm_one_point_five
-    pm_one = data[4]
-    print pm_one
-    pm_ten = data[5]
-    print pm_ten
-    topic_name = "environment"
+    topic_name = "sensor"
     create_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()))
     print create_time
     Topic.create(
@@ -67,9 +61,6 @@ def on_exec(strcmd):
         hcho_concentrer = hcho_concentrer,
         rh = rh,
         topic_name = topic_name,
-        pm_two_point_five = pm_one_point_five,
-        pm_one = pm_one,
-        pm_ten = pm_ten,
         create_time =create_time
     )
 
@@ -85,5 +76,5 @@ if __name__ == '__main__':
     strBroker = "123.56.201.7"
 
     mqttc.connect(strBroker, 1883, 60)
-    mqttc.subscribe("environment", 0)
+    mqttc.subscribe("sensor", 0)
     mqttc.loop_forever()

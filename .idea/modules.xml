@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BestFunction/.idea/BestFunction.iml" filepath="$PROJECT_DIR$/../BestFunction/.idea/BestFunction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TestMqtt.iml" filepath="$PROJECT_DIR$/.idea/TestMqtt.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/corp_platform/.idea/corp_platform.iml" filepath="$USER_HOME$/Downloads/corp_platform/.idea/corp_platform.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/DataCenter/.idea/datacenter.iml" filepath="$USER_HOME$/Downloads/DataCenter/.idea/datacenter.iml" />
