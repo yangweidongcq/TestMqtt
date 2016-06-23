@@ -12,9 +12,9 @@ class BaseModel(Model):
 
 class Topic(BaseModel):
     id = IntegerField()
-    temperature = IntegerField()
+    temperature = FloatField()
     hcho_concentrer = FloatField()
-    rh = IntegerField()
+    rh = FloatField()
     topic_name =CharField()
     pm_two_point_five = IntegerField()
     pm_one = IntegerField()

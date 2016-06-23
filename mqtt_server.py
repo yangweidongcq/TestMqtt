@@ -49,7 +49,7 @@ def on_exec(strcmd):
     data = strExec.split(",")
     temperature = data[0]
     print temperature
-    hcho_concentrer = data[2][:4]
+    hcho_concentrer = data[2]
     print hcho_concentrer
     rh = data[1]
     print  rh
@@ -59,7 +59,7 @@ def on_exec(strcmd):
     print pm_one
     pm_ten = data[5]
     print pm_ten
-    topic_name = "environment"
+    topic_name = "sensor"
     create_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()))
     print create_time
     Topic.create(
@@ -85,5 +85,5 @@ if __name__ == '__main__':
     strBroker = "123.56.201.7"
 
     mqttc.connect(strBroker, 1883, 60)
-    mqttc.subscribe("environment", 0)
+    mqttc.subscribe("sensor", 0)
     mqttc.loop_forever()

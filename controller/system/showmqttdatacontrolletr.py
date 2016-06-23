@@ -35,12 +35,12 @@ class NewMqttDtaView(MethodView):
         da = re.get("new_date")
         data = da.split(",")
         temperature = data[0]
-        hcho_concentrer = data[2][:4]
+        hcho_concentrer = data[2]
         rh = data[1]
         pm_two_point_five = data[3]
         pm_one = data[4]
         pm_ten = data[5]
-        topic_name = "environment"
+        topic_name = "sensor"
         create_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
         dic["temperature"] = temperature
         dic["hcho_concentrer"] = hcho_concentrer

@@ -63,56 +63,75 @@
                         </form>
                         <!--<table class="table table-striped table-bordered dataTable" id="example" aria-describedby="example_info" >-->
                             <!--<thead>-->
-                            <!--&lt;!&ndash;<tr role="row">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="example"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;rowspan="1" colspan="1" aria-sort="ascending"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;style="width: 157px;">温度&ndash;&gt;-->
-                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<th class="sorting_desc" role="columnheader" tabindex="0" aria-controls="example"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;rowspan="1" colspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;style="width: 94px;">湿度&ndash;&gt;-->
-                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;colspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;style="width: 94px;">甲醛&ndash;&gt;-->
-                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;colspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;style="width: 94px;">主题&ndash;&gt;-->
-                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
-                               <!--&lt;!&ndash;<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;colspan="1" aria-label="Engine version: activate to sort column ascending"&ndash;&gt;-->
-                                    <!--&lt;!&ndash;style="width: 133px;">时间&ndash;&gt;-->
-                                <!--&lt;!&ndash;</th>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--<tr role="row">-->
+                                <!--<th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="example"-->
+                                    <!--rowspan="1" colspan="1" aria-sort="ascending"-->
+                                    <!--style="width: 57px;">温度-->
+                                <!--</th>-->
+                                <!--<th class="sorting_desc" role="columnheader" tabindex="0" aria-controls="example"-->
+                                    <!--rowspan="1" colspan="1"-->
+                                    <!--style="width: 94px;">湿度-->
+                                <!--</th>-->
+                                <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1"-->
+                                    <!--style="width: 94px;">甲醛-->
+                                <!--</th>-->
+                                <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1"-->
+                                    <!--style="width: 94px;">PM2.5-->
+                                <!--</th>-->
+                                <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1"-->
+                                    <!--style="width: 94px;">PM1.0-->
+                                <!--</th>-->
+                                <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1"-->
+                                    <!--style="width: 94px;">PM10-->
+                                <!--</th>-->
+                                <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1"-->
+                                    <!--style="width:auto">主题-->
+                                <!--</th>-->
+                               <!--<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1"-->
+                                    <!--colspan="1" aria-label="Engine version: activate to sort column ascending"-->
+                                    <!--style="width: 133px;">时间-->
+                                <!--</th>-->
+                            <!--</tr>-->
                             <!--</thead>-->
-                            <!--&lt;!&ndash;<tr class="gradeA ${status.index%2==0?'odd':'even'}">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<td><input type="text" id="rh" name="rh" ></td>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<td class="center"><input type="text" id="topic_name" name="topic_name" ></td>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<td><input type="text" id="create_time" name="create_time" ></td>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
-                            <!--<tr>-->
-                                <!--<td>温度</td>-->
-                                <!--<td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>-->
-                            <!--</tr>-->
-                            <!--<tr>-->
-                                <!--<td>湿度</td>-->
+                            <!--<tr class="gradeA ${status.index%2==0?'odd':'even'}">-->
+                                <!--<td class=" sorting_1">-->
+                                    <!--<div class="col-xs-12">-->
+                                    <!--<input type="text" id="temperature" name="temperature" >-->
+                                        <!--</div>-->
+                                <!--</td>-->
                                 <!--<td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>-->
-                            <!--</tr>-->
-                            <!--<tr>-->
-                                <!--<td>甲醛</td>-->
                                 <!--<td><input type="text" id="rh" name="rh" ></td>-->
-                            <!--</tr>-->
-                            <!--<tr>-->
-                                <!--<td>主题</td>-->
+                                <!--<td><input type="text" id="pm_two_point_five" name="pm_two_point_five" ></td>-->
+                                <!--<td><input type="text" id="pm_one" name="pm_one" ></td>-->
+                                <!--<td><input type="text" id="pm_ten" name="pm_ten" ></td>-->
                                 <!--<td class="center"><input type="text" id="topic_name" name="topic_name" ></td>-->
-                            <!--</tr>-->
-                            <!--<tr>-->
-                                <!--<td>时间</td>-->
                                 <!--<td><input type="text" id="create_time" name="create_time" ></td>-->
                             <!--</tr>-->
+                            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td>温度</td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class=" sorting_1"><input type="text" id="temperature" name="temperature" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td>湿度</td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class="fullname"><input type="text" id="hcho_concentrer" name="hcho_concentrer" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td>甲醛</td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td><input type="text" id="rh" name="rh" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td>主题</td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td class="center"><input type="text" id="topic_name" name="topic_name" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td>时间</td>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<td><input type="text" id="create_time" name="create_time" ></td>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
                         <!--</table>-->
                     </div>
                 </div>
