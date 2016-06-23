@@ -37,7 +37,7 @@ class NewMqttDtaView(MethodView):
         temperature = data[0]
         hcho_concentrer = data[2][:4]
         rh = data[1]
-        pm_one_point_five = data[3]
+        pm_two_point_five = data[3]
         pm_one = data[4]
         pm_ten = data[5]
         topic_name = "environment"
